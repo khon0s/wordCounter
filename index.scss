@@ -1,0 +1,70 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family:  'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 114), rgb(133, 133, 216));
+
+    h1{
+        text-align: center;
+        font-size: 50px;
+        padding: 3%;
+        color: rgb(246, 240, 233);
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 105px;
+        form{
+            display: flex;
+        flex-direction: column;
+        align-items: center;
+        label{
+            text-align: center;
+            color: rgb(248, 242, 233);
+            font-weight: bolder;
+            font-size: 20px;
+            letter-spacing: 1px;
+            padding: 5px;
+        }
+        textarea{
+            width: 80%;
+            padding: 10px;
+        }
+        button{
+            margin: 1%;
+            height: 40px;
+            width: 70px;
+            font-weight: bolder;
+            letter-spacing: 1px;
+        }
+        }
+        #wordList{
+            width: 80%;
+            margin: auto;
+            background-color: beige;
+
+            .tr{
+                display: flex;
+                justify-content:space-around ;
+               
+
+                .td{
+                    width: 33%;
+                    height: 22px;
+                    line-height: 22px;
+                    padding-left: 5%;
+                    border-bottom: 1px solid grey;
+                
+                }
+            }
+           
+        }
+
+        }
+    }
+
+

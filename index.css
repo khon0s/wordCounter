@@ -1,0 +1,86 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(#000072), to(#8585d8));
+  background-image: linear-gradient(to bottom right, #000072, #8585d8);
+}
+
+body h1 {
+  text-align: center;
+  font-size: 50px;
+  padding: 3%;
+  color: #f6f0e9;
+}
+
+body .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-bottom: 105px;
+}
+
+body .container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .container form label {
+  text-align: center;
+  color: #f8f2e9;
+  font-weight: bolder;
+  font-size: 20px;
+  letter-spacing: 1px;
+  padding: 5px;
+}
+
+body .container form textarea {
+  width: 80%;
+  padding: 10px;
+}
+
+body .container form button {
+  margin: 1%;
+  height: 40px;
+  width: 70px;
+  font-weight: bolder;
+  letter-spacing: 1px;
+}
+
+body .container #wordList {
+  width: 80%;
+  margin: auto;
+  background-color: beige;
+}
+
+body .container #wordList .tr {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body .container #wordList .tr .td {
+  width: 33%;
+  height: 22px;
+  line-height: 22px;
+  padding-left: 5%;
+  border-bottom: 1px solid grey;
+}
+/*# sourceMappingURL=index.css.map */
